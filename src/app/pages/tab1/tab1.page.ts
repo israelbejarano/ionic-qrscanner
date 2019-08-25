@@ -17,24 +17,24 @@ export class Tab1Page {
   constructor(private barcodeScanner: BarcodeScanner, private dataLocal: DataLocalService) {}
 
   ionViewDidEnter() {
-    console.log('viewDidEnter');
+    // console.log('viewDidEnter');
   }
 
   ionViewDidLeave() {
-    console.log('viewDidLeave');
+    // console.log('viewDidLeave');
   }
 
   ionViewDidLoad() {
-    console.log('viewDidLoad');
+    // console.log('viewDidLoad');
   }
 
   ionViewWillEnter() {
-    console.log('viewWillEnter');
+    // console.log('viewWillEnter');
     this.scan();
   }
 
   ionViewWillLeave() {
-    console.log('viewWillLeave');
+    // console.log('viewWillLeave');
   }
 
   scan() {
